@@ -1,0 +1,184 @@
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Baloo Thambi 2', cursive;
+    color: var(--dark);
+}
+
+body {
+    background: rgb(240, 175, 211);
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+
+img {
+    max-width: 100%;
+}
+
+.beauty {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.navigacija ul {
+    display: grid;
+    grid-gap: 30px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navigacija a {
+    background: rgb(202, 0, 101);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+  
+.navigacija a:hover {
+    background: white;
+    color: rgba(180, 2, 91, 0.904);
+    border: 1px solid rgba(180, 2, 91, 0.904);
+}
+
+.centar {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.naslov {
+    position: relative;
+    min-height: 300px;
+    background: url(https://images.pexels.com/photos/1309475/pexels-photo-1309475.jpeg?cs=srgb&dl=four-assorted-color-lipsticks-beside-makeup-brush-1309475.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.naslov h1 {
+    position: absolute;
+    object-position: top right;
+    font-size: 6.5rem;
+    margin-bottom: 0;
+    color:rgba(180, 2, 91, 0.904);
+    font-family: 'Qwigley', cursive;
+    margin-top: 0px;
+    top: 0; 
+}
+  
+.naslov p {
+    position: absolute;
+    object-position: top right;
+    font-size: 1.3rem;
+    margin-top: 0;
+    color:rgba(180, 2, 91, 0.904);
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    top: 135px;
+  }
+
+.vise{
+    background: rgba(180, 2, 91, 0.904);
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+}
+
+.boxes {
+    display: grid;
+    grid-gap: 10px;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  }
+  
+.box {
+    background: rgba(180, 2, 91, 0.904);
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    box-shadow: var(--shadow);
+  }
+
+.vise .button{
+        background: white;
+        color:  rgba(180, 2, 91, 0.904);
+        padding: 0.6rem 1.3rem;
+        text-decoration: none;
+        border: 0;
+ }
+
+.vise a:hover {
+    background:  rgba(180, 2, 91, 0.904);
+    color: white;
+    border: 1px solid white;
+  }
+
+footer{
+    background: white;
+    color: rgba(180, 2, 91, 0.904);
+    text-align: center;
+    font-weight: bold;
+} 
+
+@media (max-width: 700px) {
+    .naslov h1 {
+      font-size: 3rem;
+    }
+  }
+  
+@media (max-width: 200px) {
+    .naslov h1 {
+        font-size: 3rem;
+    }
+  }
+
+ .Contact{
+     font-weight: bold;
+     color: rgba(180, 2, 91, 0.904);
+ } 
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: rgba(180, 2, 91, 0.904);
+  }
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
